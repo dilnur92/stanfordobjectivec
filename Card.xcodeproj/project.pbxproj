@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32394E6A1CC550AD00D1E499 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 32394E691CC550AD00D1E499 /* CardMatchingGame.m */; };
 		32627A8C1CC4AC4F00725991 /* CardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 32627A8B1CC4AC4F00725991 /* CardGame.m */; };
 		32627A901CC4AF3200725991 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 32627A8F1CC4AF3200725991 /* Card.m */; };
 		32627A931CC4B07700725991 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 32627A921CC4B07700725991 /* Deck.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32394E681CC550AD00D1E499 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		32394E691CC550AD00D1E499 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		32627A8B1CC4AC4F00725991 /* CardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGame.m; sourceTree = "<group>"; };
 		32627A8D1CC4AC6500725991 /* CardGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGame.h; sourceTree = "<group>"; };
 		32627A8E1CC4AF3200725991 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				32AA40061CC1635800731F59 /* ViewController.h */,
 				32AA40071CC1635800731F59 /* ViewController.m */,
 				32AA40091CC1635900731F59 /* Main.storyboard */,
+				32394E681CC550AD00D1E499 /* CardMatchingGame.h */,
+				32394E691CC550AD00D1E499 /* CardMatchingGame.m */,
 				32627A8B1CC4AC4F00725991 /* CardGame.m */,
 				32627A8D1CC4AC6500725991 /* CardGame.h */,
 				32627A8E1CC4AF3200725991 /* Card.h */,
@@ -301,6 +306,7 @@
 				32627A901CC4AF3200725991 /* Card.m in Sources */,
 				32627A991CC4EB6600725991 /* PlayingCardDeck.m in Sources */,
 				32AA40081CC1635800731F59 /* ViewController.m in Sources */,
+				32394E6A1CC550AD00D1E499 /* CardMatchingGame.m in Sources */,
 				32627A961CC4BAE700725991 /* PlayingCard.m in Sources */,
 				32627A8C1CC4AC4F00725991 /* CardGame.m in Sources */,
 				32AA40051CC1635800731F59 /* AppDelegate.m in Sources */,

@@ -10,7 +10,7 @@
 
 @implementation PlayingCard
 -(NSString *) contents{
-    NSArray * rankStrings = @[@"?", @"A", @"?", @"A", @"2", @"3",@"4", @"5", @"6", @"7", @"8", @"9", @"10", @"J", @"Q", @"K"];
+    NSArray * rankStrings = @[@"?", @"A", @"2", @"3",@"4", @"5", @"6", @"7", @"8", @"9", @"10", @"J", @"Q", @"K"];
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
 }
 @synthesize suit = _suit;
@@ -20,7 +20,19 @@
         _suit = suit;
     }
 }
-
+-(int) match:(NSArray *) otherCards{
+    int score = 0;
+    NSLog(@"Playing Card Match!!!!");
+    PlayingCard *otherCard = [otherCards lastObject];
+    if([otherCards count]==1){
+        if([self.suit isEqualToString:otherCard.suit]){
+            score = 1;
+        }else if(self.rank==otherCard.rank){
+            score = 4;
+        }
+    }
+    return score;
+}
 -(NSString *) suit{
     return _suit ? _suit : @"?";
 }
@@ -30,7 +42,7 @@
 }
 
 +(NSArray *) rankStrings{
-    return @[@"?", @"A", @"?", @"A", @"2", @"3",@"4", @"5", @"6", @"7", @"8", @"9", @"10", @"J", @"Q", @"K"];
+    return @[@"?", @"A", @"2", @"3",@"4", @"5", @"6", @"7", @"8", @"9", @"10", @"J", @"Q", @"K"];
 }
 +(NSUInteger) maxRank{
     return [[self rankStrings] count]-1;

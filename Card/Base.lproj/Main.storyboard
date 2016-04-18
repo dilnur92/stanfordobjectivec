@@ -19,12 +19,12 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pG-Mw-BQb">
                                 <rect key="frame" x="256" y="231" width="78" height="108"/>
-                                <state key="normal" title="A♣︎" backgroundImage="card_front"/>
+                                <state key="normal" backgroundImage="card_back"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="161" y="246" width="78" height="108"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="161" y="346" width="78" height="108"/>
+                                    <rect key="frame" x="0.0" y="28" width="78" height="108"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="361" y="346" width="78" height="108"/>
@@ -33,16 +33,248 @@
                                     <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0hm-iG-KL7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AW7-ze-ILK">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="28" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SAc-Ob-NC4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mx3-bJ-vkE">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="28" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mRr-LJ-Elm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kek-d6-77m">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="241" y="28" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ojO-ce-4ol"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFN-Em-l8b">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="144" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2J-KT-9x6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3a-Fa-Ep2">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="144" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LLD-Di-mn3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xj-Q8-iVW">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="144" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="map-Lx-ESt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lC8-wl-Uq8">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="241" y="144" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="moU-MZ-yCX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVS-uB-G00">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="260" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Epc-8m-jeh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ni1-QQ-pBf">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="260" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5LD-ME-nK8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABE-vS-Cqa">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="260" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e7N-5n-R28"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3g-wu-fQD">
+                                <rect key="frame" x="256" y="231" width="78" height="108"/>
+                                <state key="normal" backgroundImage="card_back"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="246" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="241" y="260" width="78" height="108"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="361" y="346" width="78" height="108"/>
+                                </variation>
+                                <connections>
+                                    <action selector="touchCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkg-Dh-lQf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClX-L4-hTi">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="418" width="138" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.24934460058715446" green="1" blue="0.11804642096947593" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="AW7-ze-ILK"/>
+                                <exclude reference="Mx3-bJ-vkE"/>
+                                <exclude reference="Kek-d6-77m"/>
+                                <exclude reference="dFN-Em-l8b"/>
+                                <exclude reference="F3a-Fa-Ep2"/>
+                                <exclude reference="6xj-Q8-iVW"/>
+                                <exclude reference="lC8-wl-Uq8"/>
+                                <exclude reference="AVS-uB-G00"/>
+                                <exclude reference="Ni1-QQ-pBf"/>
+                                <exclude reference="ABE-vS-Cqa"/>
+                                <exclude reference="h3g-wu-fQD"/>
+                                <exclude reference="ClX-L4-hTi"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="AW7-ze-ILK"/>
+                                <include reference="Mx3-bJ-vkE"/>
+                                <include reference="Kek-d6-77m"/>
+                                <include reference="dFN-Em-l8b"/>
+                                <include reference="F3a-Fa-Ep2"/>
+                                <include reference="6xj-Q8-iVW"/>
+                                <include reference="lC8-wl-Uq8"/>
+                                <include reference="AVS-uB-G00"/>
+                                <include reference="Ni1-QQ-pBf"/>
+                                <include reference="ABE-vS-Cqa"/>
+                                <include reference="h3g-wu-fQD"/>
+                                <include reference="ClX-L4-hTi"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="ClX-L4-hTi" id="BvB-8T-Jv7"/>
+                        <outletCollection property="cardButtons" destination="4pG-Mw-BQb" id="J2A-4J-B8C"/>
+                        <outletCollection property="cardButtons" destination="AW7-ze-ILK" id="w3d-M0-glr"/>
+                        <outletCollection property="cardButtons" destination="Mx3-bJ-vkE" id="bdb-Nd-X4p"/>
+                        <outletCollection property="cardButtons" destination="Kek-d6-77m" id="PMS-HH-vCr"/>
+                        <outletCollection property="cardButtons" destination="dFN-Em-l8b" id="K3g-b0-PNW"/>
+                        <outletCollection property="cardButtons" destination="F3a-Fa-Ep2" id="sia-ar-3yB"/>
+                        <outletCollection property="cardButtons" destination="6xj-Q8-iVW" id="FHF-Yj-B58"/>
+                        <outletCollection property="cardButtons" destination="lC8-wl-Uq8" id="xcn-fc-Z0i"/>
+                        <outletCollection property="cardButtons" destination="AVS-uB-G00" id="o8Q-Qk-h7h"/>
+                        <outletCollection property="cardButtons" destination="Ni1-QQ-pBf" id="Mmi-yS-YDy"/>
+                        <outletCollection property="cardButtons" destination="ABE-vS-Cqa" id="dLq-iW-Jud"/>
+                        <outletCollection property="cardButtons" destination="h3g-wu-fQD" id="GAT-Np-yMS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="312"/>
+            <point key="canvasLocation" x="379.5" y="312"/>
         </scene>
     </scenes>
     <resources>
-        <image name="card_front" width="64" height="96"/>
+        <image name="card_back" width="64" height="96"/>
     </resources>
 </document>
