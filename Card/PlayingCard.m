@@ -23,12 +23,15 @@
 -(int) match:(NSArray *) otherCards{
     int score = 0;
     NSLog(@"Playing Card Match!!!!");
-    PlayingCard *otherCard = [otherCards lastObject];
-    if([otherCards count]==1){
-        if([self.suit isEqualToString:otherCard.suit]){
-            score = 1;
-        }else if(self.rank==otherCard.rank){
-            score = 4;
+    id card = [otherCards lastObject];
+    if([card isKindOfClass:[PlayingCard class]]){
+        PlayingCard * otherCard = (PlayingCard *) card;
+        if([otherCards count]==1){
+            if([self.suit isEqualToString:otherCard.suit]){
+                score = 1;
+            }else if(self.rank==otherCard.rank){
+                score = 4;
+            }
         }
     }
     return score;
